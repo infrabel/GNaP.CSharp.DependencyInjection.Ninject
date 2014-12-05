@@ -33,8 +33,9 @@
     <ApplicationIcon>gnap.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GNaP.DependencyInjection">
-      <HintPath>..\..\lib\GNaP.DependencyInjection.dll</HintPath>
+    <Reference Include="GNaP.DependencyInjection, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\GNaP.DependencyInjection.1.0.1.0\lib\net45\GNaP.DependencyInjection.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
@@ -58,6 +59,7 @@
     <Content Include="gnap.ico" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="GNaP.DependencyInjection.Ninject.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

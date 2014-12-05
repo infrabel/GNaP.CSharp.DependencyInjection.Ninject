@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$id$</title>
+    
+    <authors>infrabel</authors>
+    <owners>infrabel</owners>
+
+    <summary>Ninject adapter for GNaP</summary>
+    <description>$description$</description>
+    <copyright>BSD (3-Clause) - Infrabel</copyright>
+    
+    <projectUrl>https://github.com/infrabel/GNaP.DependencyInjection.Ninject</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/infrabel/GNaP.DependencyInjection.Ninject/master/src/icon.png</iconUrl>
+    <licenseUrl>https://github.com/infrabel/GNaP.DependencyInjection.Ninject/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    
+    <tags>gnap ioc di ninject</tags>
+  </metadata>
+</package>
